@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+
+.header {
+  background-color: #ffffff;
+  text-align: center;
+  font: normal;
+  font-size: 30px;
+  font-family: 'Miriam Libre', sans-serif;
+  padding: 20px;
+}
+
+.header_items {
+  display: inline-block;
+}
+
+.header_image {
+  height: 100px;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: white;
+  color: #0f141e;
+  font-family: 'Miriam Libre', sans-serif;
+  font: normal 36px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(46, 153, 48);
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+#rightbox {
+  float: right;
+  width: 70%;
+  height: 500px;
+}
+
+#leftbox {
+  float: left;
+  width: 30%;
+  height: 500px;
+}
+
+.progect_img {
+  width: 100%;
+}
+
+/*
+.current_page {
+    border: #000000;
+    border-style: solid;
+    border-bottom: #000000;
+}
+*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#kesher_koteret {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 680px;
+}
+
+#progects {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: right;
+  width: 31%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  /* border-radius: 5px; */
+  padding: 20px;
+  margin-right: 5px;
+  width: 45%;
+  height: 500px;
+  display: inline-block;
+}
+
+#ctovet {
+  /* float: left; */
+  /* padding-right: 100px; */
+  width: 45%;
+  height: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+.kesher {
+  background-color: rgb(114, 224, 104);
+}
